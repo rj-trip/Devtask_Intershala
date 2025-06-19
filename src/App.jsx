@@ -2,9 +2,9 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import Welcome from './Pages/Welcome.jsx';
-import Register from './pages/Register.jsx';
-import Login from './pages/Login.jsx';
-import Account from './pages/Account.jsx';
+import Register from './Pages/Register.jsx';
+import Login from './Pages/Account.jsx';
+import Account from './Pages/Login.jsx';
 
 function App() {
   return (
