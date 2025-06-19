@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
-import Welcome from './pages/Welcome';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import Account from './pages/Account';
+import Welcome from './Pages/Welcome.jsx';
+import Register from './pages/Register.jsx';
+import Login from './pages/Login.jsx';
+import Account from './pages/Account.jsx';
 
 function App() {
   return (
